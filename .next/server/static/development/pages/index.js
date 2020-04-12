@@ -150,7 +150,15 @@ const Layout = props => __jsx("div", {
     lineNumber: 11,
     columnNumber: 5
   }
-}), props.children);
+}), __jsx("div", {
+  className: "container",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 5
+  }
+}, props.children));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -165,88 +173,279 @@ const Layout = props => __jsx("div", {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/olenarolskaya/FE/next-crypto/components/Navbar.js";
 
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-
-const Navbar = () => __jsx("div", {
-  className: "jsx-4293754318",
+const Navbar = () => __jsx("nav", {
+  className: "navbar navbar-expand navbar-dark bg-dark mb-4",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4,
     columnNumber: 3
   }
-}, __jsx("ul", {
-  className: "jsx-4293754318",
+}, __jsx("div", {
+  className: "container",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5,
     columnNumber: 5
   }
-}, __jsx("li", {
-  className: "jsx-4293754318",
+}, __jsx("a", {
+  className: "navbar-brand",
+  href: "#",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6,
     columnNumber: 7
   }
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+}, "Crypto"), __jsx("div", {
+  className: "collapse navbar-collapse",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 7
+  }
+}, __jsx("ul", {
+  className: "navbar-nav ml-auto",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 9
+  }
+}, __jsx("li", {
+  className: "nav-item",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 11
+  }
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6,
-    columnNumber: 11
+    lineNumber: 10,
+    columnNumber: 13
   }
 }, __jsx("a", {
-  className: "jsx-4293754318",
+  className: "nav-link",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6,
-    columnNumber: 26
+    lineNumber: 10,
+    columnNumber: 28
   }
 }, "Home"))), __jsx("li", {
-  className: "jsx-4293754318",
+  className: "nav-item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7,
-    columnNumber: 7
+    lineNumber: 12,
+    columnNumber: 11
   }
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7,
-    columnNumber: 11
+    lineNumber: 13,
+    columnNumber: 13
   }
 }, __jsx("a", {
-  className: "jsx-4293754318",
+  className: "nav-link",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7,
-    columnNumber: 31
+    lineNumber: 13,
+    columnNumber: 33
   }
-}, "About")))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "4293754318",
-  __self: undefined
-}, "ul.jsx-4293754318{background:#333;color:#fff;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}ul.jsx-4293754318 li.jsx-4293754318{font-size:18px;margin-right:20px;}ul.jsx-4293754318 li.jsx-4293754318 a.jsx-4293754318{color:#fff;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9vbGVuYXJvbHNrYXlhL0ZFL25leHQtY3J5cHRvL2NvbXBvbmVudHMvTmF2YmFyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVNnQixBQUd5QixBQU1ELEFBSUosV0FDVSxJQUpILENBTlAsV0FDSyxNQU1sQixVQUxlLGtCQVNmLHdEQVJBIiwiZmlsZSI6Ii9Vc2Vycy9vbGVuYXJvbHNrYXlhL0ZFL25leHQtY3J5cHRvL2NvbXBvbmVudHMvTmF2YmFyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuXG5jb25zdCBOYXZiYXIgPSAoKSA9PiAoXG4gIDxkaXY+XG4gICAgPHVsPlxuICAgICAgPGxpPjxMaW5rIGhyZWY9XCIvXCI+PGE+SG9tZTwvYT48L0xpbms+PC9saT5cbiAgICAgIDxsaT48TGluayBocmVmPVwiL2Fib3V0XCI+PGE+QWJvdXQ8L2E+PC9MaW5rPjwvbGk+XG4gICAgPC91bD5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIHVsIHtcbiAgICAgICAgYmFja2dyb3VuZDogIzMzMztcbiAgICAgICAgY29sb3I6ICNmZmY7XG4gICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICB9XG4gICAgICB1bCBsaSB7XG4gICAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAgICAgfVxuICAgICAgdWwgbGkgYSB7XG4gICAgICAgIGNvbG9yOiAjZmZmO1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbiAgXG4pO1xuXG5leHBvcnQgZGVmYXVsdCBOYXZiYXI7Il19 */\n/*@ sourceURL=/Users/olenarolskaya/FE/next-crypto/components/Navbar.js */"));
+}, "About")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/Prices.js":
+/*!******************************!*\
+  !*** ./components/Prices.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/olenarolskaya/FE/next-crypto/components/Prices.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "state", {
+      currency: 'USD'
+    });
+  }
+
+  render() {
+    let list = "";
+
+    if (this.state.currency === 'USD') {
+      list = __jsx("li", {
+        className: "list-group-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 14
+        }
+      }, "Bitcoin rate for ", this.props.bpi.USD.description, " :", __jsx("span", {
+        class: "badge badge-primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 13
+        }
+      }, this.props.bpi.USD.code), __jsx("strong", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 13
+        }
+      }, this.props.bpi.USD.rate));
+    } else if (this.state.currency === 'GBP') {
+      list = __jsx("li", {
+        className: "list-group-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 14
+        }
+      }, "Bitcoin rate for ", this.props.bpi.GBP.description, " :", __jsx("span", {
+        class: "badge badge-primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 13
+        }
+      }, this.props.bpi.USD.code), __jsx("strong", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 13
+        }
+      }, this.props.bpi.GBP.rate));
+    } else if (this.state.currency === 'EUR') {
+      list = __jsx("li", {
+        className: "list-group-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 14
+        }
+      }, "Bitcoin rate for ", this.props.bpi.EUR.description, " :", __jsx("span", {
+        class: "badge badge-primary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 13
+        }
+      }, this.props.bpi.USD.code), __jsx("strong", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 13
+        }
+      }, this.props.bpi.EUR.rate));
+    }
+
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 7
+      }
+    }, __jsx("ul", {
+      className: "list-group",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 9
+      }
+    }, list), __jsx("br", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 9
+      }
+    }), __jsx("select", {
+      onChange: e => this.setState({
+        currency: e.target.value
+      }),
+      className: "form-control",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 9
+      }
+    }, __jsx("option", {
+      value: "USD",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 13
+      }
+    }, "USD"), __jsx("option", {
+      value: "GBP",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 13
+      }
+    }, "GBP"), __jsx("option", {
+      value: "EUR",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 13
+      }
+    }, "EUR")));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Prices);
 
 /***/ }),
 
@@ -1936,34 +2135,62 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_Prices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Prices */ "./components/Prices.js");
 var _jsxFileName = "/Users/olenarolskaya/FE/next-crypto/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+
+
+const Index = props => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4,
+    lineNumber: 8,
     columnNumber: 3
   }
 }, __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5,
+    lineNumber: 9,
     columnNumber: 5
   }
 }, __jsx("h1", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6,
+    lineNumber: 10,
     columnNumber: 7
   }
-}, "Welcome to Crypto")));
+}, "Welcome to Crypto"), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 7
+  }
+}, "Check current Bitcoin rate"), __jsx(_components_Prices__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  bpi: props.bpi,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 7
+  }
+})));
+
+Index.getInitialProps = async function () {
+  const res = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
+  const data = await res.json();
+  return {
+    bpi: data.bpi
+  };
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -1978,6 +2205,17 @@ const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defau
 
 module.exports = __webpack_require__(/*! /Users/olenarolskaya/FE/next-crypto/pages/index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "isomorphic-unfetch":
+/*!*************************************!*\
+  !*** external "isomorphic-unfetch" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 
@@ -2033,17 +2271,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ }),
 
